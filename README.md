@@ -81,4 +81,4 @@ Before you begin, ensure you have met the following requirements:
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
 
 Enjoyed this? Consider supporting me!<br>
-<a href="https://www.buymeacoffee.com/kedargmnv" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="buymeacoffee.com/arpitgarg5y" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
