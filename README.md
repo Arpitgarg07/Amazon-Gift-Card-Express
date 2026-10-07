@@ -56,9 +56,18 @@ Before you begin, ensure you have met the following requirements:
    ```
    python src/AmazonGiftCardExpress.py
    ```
-   - Enter your Amazon login email and password.
-   - Browse and select the Excel file containing the gift card codes that you downloaded in step 1.
-   - Click "Redeem!" to start adding the gift cards to your Amazon account.
+   - Enter your Amazon login email and password, then click **Connect Amazon**.
+   - After the Amazon browser session opens, paste one gift card code per line into the code box. For example:
+     ```
+     KA7C-TC8DNA-DYVW
+     6N7U-DPFVFU-BENB
+     4FMY-PKFRP4-RNKV
+     ```
+   - Click **Redeem!** to add all pasted codes using the same connected Amazon session.
+   - Codes are processed in batches of up to six parallel browser sessions to reduce wait time.
+   - Each code's result is also printed in the terminal as `CLAIMED`, `ALREADY CLAIMED`,
+     `INVALID`, `NOT REDEEMABLE`, or `UNKNOWN`.
+   - The account is connected only once per app session; the credentials are not saved to disk.
    - If a CAPTCHA screen appears when adding the gift card code, the tool will prompt you to solve the CAPTCHA manually and click OK to continue.
 
 ![Amazon Gift Card Express GUI](images/GUI.png)
